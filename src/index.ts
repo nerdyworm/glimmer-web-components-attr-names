@@ -17,5 +17,4 @@ app.registerInitializer({
 
 app.boot();
 
-app.renderComponent('display-tile-2', containerElement, null);
-initializeCustomElements(app, ['display-tile-2']);
+initializeCustomElements(app, ['x-main']);
